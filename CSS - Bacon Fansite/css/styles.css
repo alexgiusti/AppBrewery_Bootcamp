@@ -8,11 +8,11 @@ h1{
     font-size: 200px;
 }
 
-/*
-img{
-    background-color: #632626;
+
+img:hover{
+    background-color: gold;
 }
-*/
+
 
 /*------------------CLASS SELECTORS------------------*/
 
@@ -22,4 +22,14 @@ img{
 
 .broccoli{
     background-color: red;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+/*------------------ID SELECTORS------------------*/
+
+#heading {
+    color: blue;
 }
